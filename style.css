@@ -1,0 +1,331 @@
+html{
+    scroll-behavior: smooth;
+
+}
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.container
+{
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Sofia", sans-serif;
+}
+
+[class*="col-"]
+
+{
+    width:100%;
+}
+
+
+[class*="col-"]
+
+{
+    float: left;
+    padding: 15px;
+}
+
+.row
+{
+    width:100%;
+}
+
+.row::after{
+
+    clear:both;
+    content: '';
+    display: block;
+}
+
+
+@media (max-width: 576px)
+{
+.col-sm-1 
+{width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+
+}
+
+@media (max-width: 768px)
+{
+.col-mid-1 
+{width: 8.33%;}
+.col-mid-2 {width: 16.66%;}
+.col-mid-3 {width: 25%;}
+.col-mid-4 {width: 33.33%;}
+.col-mid-5 {width: 41.66%;}
+.col-mid-6 {width: 50%;}
+.col-mid-7 {width: 58.33%;}
+.col-mid-8 {width: 66.66%;}
+.col-mid-9 {width: 75%;}
+.col-mid-10 {width: 83.33%;}
+.col-mid-11 {width: 91.66%;}
+.col-mid-12 {width: 100%;}
+
+}
+
+@media (min-width: 992px)
+{
+
+
+    .profile-image
+    {
+        text-align: left;
+    }
+
+    nav ul
+{
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+}
+
+
+
+    
+
+.col-lg-1 
+{width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+}
+
+.profile-image
+{
+    width: 100px;
+    height: 120px;
+    line-height: 70px;
+    text-align: center;
+}
+
+header
+{
+    background-color: black;
+    padding: 0% 1%;
+    text-align: center;
+}
+
+nav ul li
+{
+    display:block;
+}
+
+nav ul li a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    padding: 0 20px ;
+    text-transform: uppercase;
+    font-size: 0.9 rem;
+}
+
+nav ul li a:hover{
+
+    border-radius: 10px;
+    background-color: purple;
+}
+
+#banner-section
+{
+    background-image: url("Image/bts.jpg");
+    background-position: center;
+    background-attachment: center;
+    background-size: cover;
+    background-repeat: none;
+
+}
+
+.banner-contents
+{
+
+    padding: 50px 10px;
+    text-align: center;
+}
+
+
+.banner-contents h1
+{
+    width: 50%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: wheat; 
+    border-radius: 5px;
+    padding: 10px;
+    
+
+}
+
+.banner-contents p
+{
+    width: 300px;
+    margin: 15px auto;
+    font-size: 3rem;
+   
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+.btn 
+{
+    width: 160px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    text-transform: uppercase;
+    transition: .4s;
+
+}
+
+.btn:hover
+{
+    transform:scale(1.2);
+}
+
+#about-us
+{
+    padding: 1%;
+}
+
+.about-us-contents
+{
+    text-align:center; 
+}
+
+.about-us-contents h3
+{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.about-us-contents p{
+
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+#accessories-section
+{
+    padding: 1%;
+}
+
+.card-body
+{
+    text-align: center;
+}
+
+.card-body img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item-desc
+{
+    background: pink;
+}
+
+.item-name
+{
+    background:black;
+    color:white;
+    padding: 10px;
+}
+
+.card{
+    transition: 0.4s;
+}
+
+.card:hover
+{
+    transform:scale(1.1);
+}
+#Contact{
+    padding: 1%;
+    background:black;
+}
+
+.map
+{
+    width: 100%;
+    height: 250px;
+}
+
+.contact-details
+{
+    color:pink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-details p.address{
+    font-size: .8 rem;
+}
+
+footer{
+
+    padding: 1%;
+    color: white;
+    background:pink;
+}
+
+footer p{
+
+    line-height: 32px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.social-menus
+{
+    text-align: center;
+}
+.icon-style
+{
+    color: white;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    
+    margin: 0 10px;
+    transition: .4s;
+    text-align: center;
+}
